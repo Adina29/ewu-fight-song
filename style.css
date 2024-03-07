@@ -62,10 +62,11 @@ main article {
 }
 
 main article figure {
-  background: gray;
-  color: white;
+  background: rgb(153, 150, 150);
+  color: black;
   padding: 1em;
   margin: 0;
+  opacity: 75%;
 }
 
 /* Media Query */
@@ -83,6 +84,5 @@ main article figure {
   main article {
     flex-direction: column;
   }
-  
-  
+
 }
